@@ -1,0 +1,240 @@
+
+/***** BASE STYLES *****/
+@font-face{
+    font-family:'Burford Rustic W01 Bk UltLight';
+    src:url('../fonts/1583109/06c06df3-3885-4070-8c74-cda2298d1fb8.eot?#iefix');
+    src:url('../fonts/1583109/06c06df3-3885-4070-8c74-cda2298d1fb8.eot?#iefix') format('eot'),
+    url('../fonts/1583109/aca41224-3e34-44a8-b41e-b1efdb685a5a.woff2') format('woff2'),
+    url('../fonts/1583109/d7d6af14-1b38-4e05-bef3-001ae7ba849c.woff') format('woff'),
+    url('../fonts/1583109/ebda63a3-2a59-4367-96ea-c7092ffd29a7.ttf') format('truetype');
+}
+
+
+body {
+  color: #2b2b2b;
+  background-color: #5A6770;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 28px;
+  height: 100%;
+  margin: 0;
+}
+
+.half-width img{
+  border: 1px solid #000000;
+  border-radius: 20px;
+  display: block;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  border: 1px;
+  border-color: #b7b7b7;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33%;
+}
+/***** HEADER *****/
+
+header {
+  background: url('../img/header-image-typewriter.jpg');
+  background-size: cover;
+  height: 700px;
+  margin-top: -50px;
+}
+
+h1 {
+  color: #323232;
+  font-family: 'Burford Rustic W01 Bk UltLight';
+  font-size: 80px;
+  line-height: 70px;
+  padding-top: 400px;
+  text-align: center;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 10px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+h2 {
+  color: #323232;
+  font-family:'Burford Rustic W01 Bk UltLight';
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  font-family:'Homemade Apple', cursive;
+  font-size: 36px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  height: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
+
+#rogue-pickings {
+  padding-bottom: 20px;
+}
+
+#jubilee-austen, #holstee-manifesto {
+  clear: both;
+  padding: 20px 0px 20px 0px;
+}
+
+#portfolio h4 {
+  color: #9ac976;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#portfolio h5{
+  color: #a2d8e8;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#portfolio p{
+  color: #a2d8e8;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  background-color: #166579;
+  height: 750px;
+  margin: 0;
+  padding: 0;
+}
+
+#photo {
+  padding-top: 10px;
+}
+
+span{
+  color: #9ac976;
+  font-family: 'Satisfy', cursive;
+  font-size: 36px;
+}
+
+#about h3 {
+  padding-top: 50px;
+}
+
+#about img {
+  display: block;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#about h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -40px;
+}
+
+#about p {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 50px;
+  height: 53%;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #498D99;
+  height: 600px;
+  margin-top: -70px;
+  padding: 0;
+}
+
+#contact h3 {
+  padding-top: 50px;
+}
+
+#contact a {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#contact h4{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#icons {
+    text-align: center;
+}
+
+.resize{
+  height: 55px;
+  padding: 0px 35px 20px 0px;
+  width: auto;
+}
+
+#contact ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+#contact p {
+  color: #000000;
+  font-size: 20px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+h6 {
+  clear: both;
+  color: #000000;
+  font-size: 15px;
+  padding-top: 150px;
+  text-align: center;
+}
